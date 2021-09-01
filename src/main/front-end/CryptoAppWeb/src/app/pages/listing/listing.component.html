@@ -1,0 +1,8 @@
+<div class="header h1">
+  Gestion du stock
+</div>
+<div class="d-flex flex-row">
+  <div *ngFor="let crypto of cryptos">
+    <app-crypto [crypto]="crypto"></app-crypto>
+  </div>
+</div>

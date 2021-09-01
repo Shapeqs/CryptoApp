@@ -1,5 +1,7 @@
 package com.exemple.CryptoApp;
 
+import com.exemple.CryptoApp.Repository.Crypto.CryptoRepositoryImpl;
+import com.exemple.CryptoApp.Service.Crypto.CryptoServiceImpl;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
